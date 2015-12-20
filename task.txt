@@ -1,0 +1,12 @@
+Create a github repository.
+Work in dev branch, not master.
+
+Create an HTML document, CSS file.
+Use in HTML: h1, h2, p, a, img, span, ...
+Use in CSS: selectors by tag, by id and by class, and the following properties:
+	margin, padding,
+	font-size, font-family, font-weight,
+	color, background,
+	width, height,
+	float,
+	...
