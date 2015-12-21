@@ -2,5 +2,34 @@ body {
 		margin: 0;
 		background-color: 010101;
 		color: ffffff;
-		
+}
+
+h1 {
+	font-family:"Courier New", Courier, monospace;
+	margin: 10px 40% ;
+}
+
+img {	
+	margin: 0 40% 20px 40%;
+}
+
+p {
+	text-align: center;
+	font-family: Ariel;
+}
+
+#main-left {
+	background: silver; 
+	float: left;
+}
+
+#main-right {
+	background: silver;
+	float: left;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
