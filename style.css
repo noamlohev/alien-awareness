@@ -31,42 +31,40 @@ h2 {
 	border-color: red;
 	background: black;
 	margin-left: 8%;
-	margin-right: 8%;	
+	margin-right: 8%;
 	padding: 15px 30px;
 	text-align: center;
 }
 
 #main-left {
-	text-align: center;
 	float: left;
 	margin-left: 20px;
 	width: 30%;	
 }
 
 #main-right {
-	text-align: center;
 	float: right;
 	margin-right: 20px;
 	width: 30%;
 }
 
-.feature {	
+.feature {
 	margin-left: 12%;
 	margin-bottom: 20px;
 	width: 20%;
-	height: 8%;
-	padding: 1px 1px 1px 1px;
+	padding: 1px;
 	float: left;
-}
-
-.feature img {
-	width: 100%;	
-	background-color: light-gray;
+	background: slategray;
 	border-radius: 25px;
 }
 
-.feature:first-child{
-	margin-left:8%;
+.feature img {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.feature:first-of-type {
+	margin-left: 8%;
 }
 
 .lies {
