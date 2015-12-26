@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 50px 0 25px;
+	text-align: center;
+}	
+
+#logo {
+	width: 22%;
+	height: auto;
+}
+
+#main {
+	font-family: Arial;
+	font-size: 20px;
+	color: #ffffff;
+	border-style: double;
+	border-width: 5px;
+	border-color: red;
+	background: black;
+	margin-left: 8%;
+	margin-right: 8%;
+	padding: 15px 30px;
+	text-align: center;
+}
+
+#main-left {
+	float: left;
+	margin-left: 20px;
+	width: 30%;	
+}
+
+#main-right {
+	float: right;
+	margin-right: 20px;
+	width: 30%;
+}
+
+.feature {
+	margin-left: 12%;
+	margin-bottom: 20px;
+	width: 20%;
+	padding: 1px;
+	float: left;
+	background: slategray;
+	border-radius: 25px;
+}
+
+.feature img {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.feature:first-of-type {
+	margin-left: 8%;
+}
+
+.lies {
+	text-decoration: line-through;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
